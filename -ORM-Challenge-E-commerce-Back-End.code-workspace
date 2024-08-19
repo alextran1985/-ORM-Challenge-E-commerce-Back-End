@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../bookish-sniffle/Develop/config"
+		},
+		{
+			"path": "../bookish-sniffle/Develop/db"
+		},
+		{
+			"path": "../bookish-sniffle/Develop/models"
+		},
+		{
+			"path": "../bookish-sniffle/Develop/routes"
+		},
+		{
+			"path": "../bookish-sniffle/Develop/seeds"
+		}
+	],
+	"settings": {}
+}
