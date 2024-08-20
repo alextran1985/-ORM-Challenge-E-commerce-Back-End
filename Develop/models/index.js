@@ -12,7 +12,7 @@ Product.belongsToMany(Category, {
     unique: false
   },
   // Define an alias for when data is retrieved
-  as: ''
+  as: 'product-category'
 });
 // Categories have many Products
 Category.belongsToMany(Product, {
@@ -22,7 +22,7 @@ Category.belongsToMany(Product, {
     unique: false
   },
   // Define an alias for when data is retrieved
-  as: ''
+  as: 'category-product'
 });
 // Products belongToMany Tags (through ProductTag)
 Product.belongsToMany(Tag, {
@@ -32,7 +32,7 @@ Product.belongsToMany(Tag, {
     unique: false
   },
   // Define an alias for when data is retrieved
-  as: ''
+  as: 'product-tag'
 });
 // Tags belongToMany Products (through ProductTag)
 Tag.belongsToMany(Product, {
@@ -42,7 +42,7 @@ Tag.belongsToMany(Product, {
     unique: false
   },
   // Define an alias for when data is retrieved
-  as: ''
+  as: 'tag-product'
 });
 module.exports = {
   Product,
